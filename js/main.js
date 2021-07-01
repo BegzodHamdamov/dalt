@@ -23,7 +23,7 @@ const book = [
         name: "Paul Natin for vocebular",
         price: "99000",
     },
-  
+
 ];
 
 const container = document.getElementById("bookshop");
@@ -60,3 +60,8 @@ const setall = (obj) => {
 setall({ book: book, filter: "" });
 
 
+// qidiruv
+const search = () => {
+    const txt = document.getElementById("search-input").value;
+    setall({ book: book, filter: txt });
+};

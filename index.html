@@ -32,20 +32,42 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Kurslar</a>
-                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Kurslar
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Beginner</a></li>
+                                    <li><a class="dropdown-item" href="#">Elementary</a></li>
+                                    <li><a class="dropdown-item" href="#">Pre-IELTS</a></li>
+                                    <li><a class="dropdown-item" href="#">IELTS Introduction</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">IELTS-Foundation</a></li>
+                                    <li><a class="dropdown-item" href="#">IELTS-Graduation</a></li>
+                                </ul>
+                            </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">Adabiyotlar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Bog'lanish</a>
                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index1.html">Ro'yxatdan o'tish</a>
+                        </li>
                         
                     </ul>
-                    <div class="search">
-                        <input type="text"><i class="fas fa-search"></i>
-                    </div>
+                                <div class="d-flex search-panel">
+                                    <input type="text" class="form-control" id="search-input" />
+                                    <button class="btn" onclick="search()">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+
                 </div>
             </div>
         </nav>

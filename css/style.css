@@ -68,6 +68,19 @@ nav ul li a:hover {
   color: #ff5ea2;
 }
 
+.everest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595791229_21-p-fon-polyana-41.jpg);
+  height: 640px;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1rem blue;
+}
+.everest h1 {
+  font-size: 150px;
+}
+
 .all {
   height: 400px;
   margin-top: 1px;
@@ -83,19 +96,6 @@ nav ul li a:hover {
 
 .all:hover {
   color: #f574d5;
-}
-
-.everest {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(https://kartinkinaden.ru/uploads/posts/2020-07/1595791229_21-p-fon-polyana-41.jpg);
-  height: 640px;
-  text-align: center;
-  text-shadow: 1px 1px 2px black, 0 0 1rem blue;
-}
-.everest h1 {
-  font-size: 150px;
 }
 
 .row {
@@ -125,7 +125,7 @@ footer {
 }
 footer img {
   margin: 2px;
-  width: 250px;
+  width: 200px;
   height: 100px;
 }
 
